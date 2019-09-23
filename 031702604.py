@@ -132,8 +132,8 @@ if x[0]=="1":
     if m:
         t.append(m)
     dict["地址"]=t
-    json1=json.dumps(dict,ensure_ascii=False)
-    print(json1)
+    Json=json.dumps(d,indent =4,ensure_ascii=False)
+    print(Json)
     
 if x[0]=="2":
     x=x.replace("2!","")
@@ -205,5 +205,5 @@ if x[0]=="2":
     if m:
         t.append(m)
     dict["地址"]=t
-    json1=json.dumps(dict,ensure_ascii=False)
-    print(json1)
+    Json=json.dumps(d,indent =4,ensure_ascii=False)
+    print(Json)
