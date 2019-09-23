@@ -140,7 +140,7 @@ if x[0]=="1":
     Json=json.dumps(dict,indent =4,ensure_ascii=False)
     print(Json)
     
-if x[0]=="2":
+else:
     dict={}
     S=0
     x=re.sub("2!","",x,1)
