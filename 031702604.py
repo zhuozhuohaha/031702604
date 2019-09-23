@@ -150,7 +150,7 @@ if x[0]=="2":
     dict["姓名"]=y[0]
     m=y[1]
     k=re.findall(r"\d\d\d\d\d\d\d\d\d\d\d",m)
-    dict["号码"]=k[0]
+    dict["手机"]=k[0]
     m=re.sub(k[0],"",m,1)
     t=[]
     for i in range(len(sheng)):
