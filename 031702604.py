@@ -182,7 +182,6 @@ if x[0]=="2":
                     m=re.sub(p,"",m,1)
                 t.append(b)
                 break
-    print(m)
     k=re.match(r'.*?(县|区|市)',m)
     if k:
         c=k.group()
